@@ -35,7 +35,7 @@ urlsnames = []
 urls =[]
 
 for url,name in zip(category_urls,category_names):
-    for i in range(1,2):
+    for i in range(1,11):
         urlsnames.append(name)
         urls.append(url+'/'+str(i))
 
